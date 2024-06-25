@@ -10,7 +10,7 @@ class UrlController {
     try {
       const encryptedLongUrl = encryptUrl(longUrl);
       const newUrl = await Url.create({ shortUrl, longUrl: encryptedLongUrl });
-      const fullShortUrl=`${process.env.BASE_URL}/${shortUrl}`
+      const fullShortUrl=`${process.env.BASE_URL}api/url/${shortUrl}`
       res.status(201).json({ fullShortUrl, longUrl });
     } catch (error) {
       res.status(500).json({ error: error.message });

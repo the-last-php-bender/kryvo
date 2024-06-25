@@ -34,7 +34,7 @@ Access the API documentation at `${process.env.BASE_URL}/api-docs`.
 
 ## Endpoints
 
-- `POST ${process.env.BASE_URL}/api/shorten`: Shorten a long URL.
+- `POST ${process.env.BASE_URL}/api/`: Shorten a long URL.
 - `GET ${process.env.BASE_URL}/api/:shortUrl`: Redirect to the original URL.
 
 ## License
