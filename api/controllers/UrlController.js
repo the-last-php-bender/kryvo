@@ -1,5 +1,5 @@
 import shortid from 'shortid';
-import Url from '../models/url.js';
+import Url from '../models/Url.js';
 import { encryptUrl, decryptUrl } from '../utils/encryption.js';
 
 class UrlController {
