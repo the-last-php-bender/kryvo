@@ -10,6 +10,9 @@ const port = 3000;
 
 app.use(bodyParser.json());
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
+app.get('/',function(req,res){
+  res.send("Yes the server is live🚗🚗🚗🚗🚗🚗🚗🚗🚗")
+})
 app.use('/api', urlRoutes);
 
 
