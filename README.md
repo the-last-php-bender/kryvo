@@ -1,6 +1,6 @@
 # Krývo
 
-![Krývo Logo](kryvo.jpeg)
+![Krývo Logo](kryvo.png)
 
 Krývo is a secure URL shortener application that allows users to shorten long URLs while ensuring the security of the stored URLs using bcrypt encryption. This application is built with Express.js, Sequelize ORM, MySQL, and bcrypt.
 
