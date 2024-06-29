@@ -18,13 +18,13 @@ Url.init({
     unique: true
   },
   longUrl: {
-    type: DataTypes.TEXT,
+    type: DataTypes.STRING(20000),
     allowNull: false,
     unique: true
   },
 }, {
   sequelize,
-  modelName: 'User',
+  modelName: 'Urls',
   timestamps: true
 });
 

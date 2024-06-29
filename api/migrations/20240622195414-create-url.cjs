@@ -13,7 +13,7 @@ module.exports = {
         unique: true,
       },
       longUrl: {
-        type: Sequelize.TEXT,
+        type: DataTypes.STRING(20000),
         allowNull: false,
       },
       createdAt: {
